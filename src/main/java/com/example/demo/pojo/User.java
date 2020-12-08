@@ -22,7 +22,7 @@ public class User {
 	@Column(name = "u_name" ,length = 32,columnDefinition = "varchar(32) not null default '' comment '用户姓名'")
 	private String name;
 
-	@Column(name = "u_email",columnDefinition = "varchar(32) not null default '' comment '用户邮编'")
+	@Column(name = "u_email",columnDefinition = "varchar(325) not null default '' comment '用户邮编'")
 	private String email;
 
 	public Integer getId() {

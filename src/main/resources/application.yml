@@ -23,3 +23,11 @@ spring:
 file:
 saveLinuxPath: /tmp/store
 saveWindowsPath: D:\\picture
+
+order:
+  all:
+    data:
+      cron: 0 0 */1 * * ?
+  update:
+    data:
+      cron:*/10 * * * * ?
