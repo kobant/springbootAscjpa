@@ -52,10 +52,15 @@
             <version>2.1.4.RELEASE</version>
         </dependency>
         <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+        </dependency>
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.47</version>
         </dependency>
+
 
         <!-- swagger2依赖 -->
         <dependency>
