@@ -11,7 +11,7 @@ import java.util.Date;
  * @Author: liaocongcong
  * @Date: 2020/12/8 14:44
  */
-@Component
+//@Component
 public class Scheduler {
 
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");

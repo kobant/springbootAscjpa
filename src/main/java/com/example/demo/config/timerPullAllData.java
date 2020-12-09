@@ -14,7 +14,7 @@ import java.util.List;
  * @Author: liaocongcong
  * @Date: 2020/12/8 15:23
  */
-@Component
+//@Component
 public class timerPullAllData {
 
 	@Autowired

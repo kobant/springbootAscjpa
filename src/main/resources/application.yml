@@ -19,6 +19,15 @@ spring:
     password: mysqladmin
     driver-class-name: com.mysql.jdbc.Driver
 
+#logback配置
+#logging:
+ # pattern:
+  #  console: '%d -%msg%n'
+ # path: D:/data/log/seller.log
+  #level:
+   # root: debug
+
+
 
 file:
 saveLinuxPath: /tmp/store
